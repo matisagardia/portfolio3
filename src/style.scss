@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 500;
+}
+
+.sections {
+
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    ul {
+        display: flex;
+        gap: 60px;
+        font-size: 4rem;
+        li {
+            list-style-type: none;
+        }
+        a {
+            color: rgb(64, 64, 64);
+            text-decoration: none;
+           
+        }
+    }
+}
+
+.logo {
+    width: 120px;
+    height: 38px;
+    margin-left: 200px;
+    padding-top: 3px;
+}
+
+.divider {
+    display: inline-block;
+    width: 1px;
+    background-color: rgb(179, 179, 179);
+    margin-right: 15px;
+    height: 40px;
+  }
+  
+
+.modeButton {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    p {
+        font-size: 1.5rem;
+    }
+    .modeIcon {
+        font-size: 2.5rem;
+    }
+}
+
+.home {
+    width: 100vw;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeText {
+    position: absolute;
+    top: 250px;
+    left: 450px;
+    h2 {
+        font-size: 3rem;
+        font-weight: 300;
+        margin-bottom: 15px;
+    }
+    h1 {
+        font-size: 5rem;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    h3 {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+}
+
+.highlight {
+    position: relative;
+  }
+  
+  .highlight::before {
+    background: linear-gradient(to right, #a8ff78, #78ffc9a2);
+  
+    content: "";
+    position: absolute;
+    width: calc(100% + 4px);
+    height: 80%;
+    left: -4px;
+    bottom: 0;
+    z-index: -1;
+    transform: rotate(-2deg);
+  }
+
+  .buttons {
+    margin-top: 40px;
+    display: flex;
+    gap: 50px;
+
+    .resume {
+        width:180px;
+        height: 50px;
+        border-radius: 20px;
+        p {
+            font-size: 1.4rem;
+            font-weight: 700;
+        }
+      }
+
+    .contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 130px;
+        height: 50px;
+        border-radius: 20px;
+        background-color: #6f6f6f;
+        color: whitesmoke;
+
+        p {
+            font-size: 1.4rem;
+            font-weight: 700;
+        }
+    }
+  }
+
+
+ 
