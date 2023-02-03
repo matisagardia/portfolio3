@@ -9,6 +9,10 @@ export const Projects = () => {
             <FcBriefcase />
         </div>
 
+        <div className="projectsSlider">
+
+        </div>
+
     </div>
   )
 }

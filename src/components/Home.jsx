@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from 'react-bootstrap'
 import homeImg from "../assets/homeicon/icon0.jpg"
 
 
@@ -21,13 +22,9 @@ export const Home = () => {
             <div className="buttons">
 
 
-                <button className='resume'>
-                    <p>Download resume</p>
-                </button>
+            <Button variant="secondary" size='lg' className='resumeButton'>Dowload resume</Button>
 
-                <button className='contact'>
-                    <p>Contact me</p>
-                </button>
+            <Button variant="outline-secondary" size='lg' className='contactButton'>Contact me</Button>
 
             </div>
 
