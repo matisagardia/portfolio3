@@ -107,6 +107,9 @@ body {
         font-size: 2rem;
         font-weight: 300;
     }
+    #name {
+        font-size: 6rem;
+    }
 }
 
 .highlight {
@@ -114,16 +117,16 @@ body {
   }
   
   .highlight::before {
-    background: linear-gradient(to right, #a7ff78b1, #aae4cda2);
+    background: linear-gradient(to right, #e65100, #eb680f, #ef7d20, #f39131, #f7a343, #f0b451, #e9c463, #e3d278, #d4df94, #cbeab2, #cbf1cf, #d5f7e6);
   
     content: "";
     position: absolute;
     width: calc(100% + 5px);
-    height: 70%;
+    height: 80%;
     left: -2px;
     bottom: 0;
     z-index: -1;
-    transform: rotate(-3deg);
+    transform: rotate(-2deg);
   }
 
   .buttons {
@@ -143,6 +146,11 @@ body {
  .homeImg img {
     width: 500px;
     height: 500px;
+ }
+
+ .projects {
+    width: 100vw;
+    height: 100px;
  }
 
 

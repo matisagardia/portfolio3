@@ -11,7 +11,7 @@ export const Home = () => {
 
             <h2>Welcome to my portfolio!</h2>
 
-            <h1 className='highlight'>I'm Matias Sagardia</h1> 
+            <h1 className='highlight' id='name'>I'm Matias Sagardia</h1> 
             <br />
             <h1>Full-Stack Developer</h1> 
 
