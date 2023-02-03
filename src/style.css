@@ -35,6 +35,22 @@ body {
 .sections ul a {
   color: rgb(64, 64, 64);
   text-decoration: none;
+  position: relative;
+}
+.sections ul a::before {
+  content: "";
+  background-color: rgba(0, 122, 47, 0.226);
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 100%;
+  height: 2px;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+.sections ul a:hover::before {
+  bottom: 0;
+  height: 100%;
 }
 
 .logo {
@@ -65,17 +81,16 @@ body {
 }
 
 .home {
-  width: 100vw;
-  height: calc(100vh - 100px);
+  margin: 0 auto;
+  width: 75vw;
+  height: calc(100vh - 200px);
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .homeText {
-  position: absolute;
-  top: 250px;
-  left: 450px;
+  margin-left: 20px;
 }
 .homeText h2 {
   font-size: 3rem;
@@ -97,15 +112,15 @@ body {
 }
 
 .highlight::before {
-  background: linear-gradient(to right, #a8ff78, rgba(120, 255, 201, 0.6352941176));
+  background: linear-gradient(to right, rgba(167, 255, 120, 0.6941176471), rgba(170, 228, 205, 0.6352941176));
   content: "";
   position: absolute;
-  width: calc(100% + 4px);
-  height: 80%;
-  left: -4px;
+  width: calc(100% + 5px);
+  height: 70%;
+  left: -2px;
   bottom: 0;
   z-index: -1;
-  transform: rotate(-2deg);
+  transform: rotate(-3deg);
 }
 
 .buttons {
@@ -114,9 +129,10 @@ body {
   gap: 50px;
 }
 .buttons .resume {
-  width: 180px;
-  height: 50px;
+  width: 170px;
+  height: 40px;
   border-radius: 20px;
+  cursor: pointer;
 }
 .buttons .resume p {
   font-size: 1.4rem;
@@ -126,15 +142,30 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 130px;
-  height: 50px;
+  width: 120px;
+  height: 40px;
   border-radius: 20px;
   background-color: #6f6f6f;
   color: whitesmoke;
+  cursor: pointer;
 }
 .buttons .contact p {
   font-size: 1.4rem;
   font-weight: 700;
+}
+
+.homeImg img {
+  width: 500px;
+  height: 500px;
+}
+
+.projectsTitle {
+  font-size: 6rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

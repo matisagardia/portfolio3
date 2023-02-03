@@ -1,11 +1,12 @@
 import React from 'react'
-import { FcIphone } from "react-icons/fc";
+import homeImg from "../assets/homeicon/icon0.jpg"
+
 
 export const Home = () => {
   return (
     <div className='home'>
 
-        <div className="homeText">
+        <div className="homeText animate__animated animate__fadeInLeft">
 
             <h2>Welcome to my portfolio!</h2>
 
@@ -13,7 +14,7 @@ export const Home = () => {
             <br />
             <h1>Full-Stack Developer</h1> 
 
-            <h3>My goal is to build creative, functional, and innovative applications. <br />
+            <h3>My goal is to build creative, functional, and innovative products. <br />
             I challenge myselft seeking to generate the best user experience.</h3>
             
 
@@ -32,7 +33,9 @@ export const Home = () => {
 
         </div>
 
-        <div className="homeImg"></div>
+        <div className="homeImg animate__animated animate__fadeInRight">
+            <img src={homeImg} alt="" />
+        </div>
 
     </div>
   )
