@@ -198,4 +198,44 @@ body {
   height: 50px;
 }
 
+.skillsLogos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  margin-top: 70px;
+  margin-bottom: 150px;
+}
+.skillsLogos img {
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+}
+.skillsLogos .languajes {
+  width: 40vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.skillsLogos .softSkills {
+  width: 25vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+.html, .css, .bs, .sass, .js, .react, .redux, .node, .mongo, .git, .teamwork, .pm, .listen, .adapt, .conflict, .problem {
+  font-size: 2rem;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+
 /*# sourceMappingURL=style.css.map */

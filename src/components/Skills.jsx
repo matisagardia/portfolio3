@@ -8,7 +8,6 @@ import sass from "../assets/skillslogos/sass.png"
 import bootstrap from "../assets/skillslogos/bootstrap.png"
 import mongo from "../assets/skillslogos/mongo.png"
 import redux from "../assets/skillslogos/redux.png"
-import postman from "../assets/skillslogos/postman.png"
 import teamwork from "../assets/skillslogos/teamwork.png"
 import pm from "../assets/skillslogos/project-management.png"
 import listen from "../assets/skillslogos/listening.png"
@@ -31,26 +30,25 @@ export const Skills = () => {
 
         <div className="skillsLogos">
             <div className="languajes">
-                <img src={html} alt="" />
-                <img src={css} alt="" />
-                <img src={bootstrap} alt="" />
-                <img src={sass} alt="" />
-                <img src={js} alt="" />
-                <img src={react} alt="" />
-                <img src={redux} alt="" />
-                <img src={node} alt="" />
-                <img src={mongo} alt="" />
-                <img src={postman} alt="" />
-                <img src={git} alt="" />
+                <div className="html">Html<img src={html} alt="" /></div>
+                <div className="css">Css<img src={css} alt="" /></div>
+                <div className="bs">Bootstrap<img src={bootstrap} alt="" /></div>
+                <div className="sass">Sass<img src={sass} alt="" /></div>
+                <div className="js">Javascript<img src={js} alt="" /></div>
+                <div className="react">React<img src={react} alt="" /></div>
+                <div className="redux">Redux<img src={redux} alt="" /></div>
+                <div className="node">NodeJS<img src={node} alt="" /></div>
+                <div className="mongo">MongoDB<img src={mongo} alt="" /></div>
+                <div className="git">Git/Github<img src={git} alt="" /></div>
             </div>
 
             <div className="softSkills">
-                <img src={teamwork} alt="" />
-                <img src={pm} alt="" />
-                <img src={listen} alt="" />
-                <img src={adapt} alt="" />
-                <img src={conflict} alt="" />
-                <img src={problem} alt="" />
+                <div className="teamwork">Teamwork<img src={teamwork} alt="" /></div>
+                <div className="listen">Llistening<img src={listen} alt="" /></div>
+                <div className="adapt">Adaptabilty<img src={adapt} alt="" /></div>
+                <div className="conflict">Conflict <br/> resolution<img src={conflict} alt="" /></div>
+                <div className="problem">Problem <br/> solving<img src={problem} alt="" /></div>
+                <div className="pm">Time <br/> management<img src={pm} alt="" /></div>
             </div>
         </div>
     </div>
