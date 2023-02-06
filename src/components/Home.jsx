@@ -13,7 +13,7 @@ export const Home = () => {
 
             <h1 className='highlight' id='name'>I'm Matias Sagardia</h1> 
             <br />
-            <h1>Full-Stack Developer</h1> 
+            <h1>Front End Developer</h1> 
 
             <h3>My goal is to build creative, functional, and innovative products. <br />
             I challenge myselft seeking to generate the best user experience.</h3>

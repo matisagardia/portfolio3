@@ -1,4 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
+import BankistLanding from '../assets/projects/bankistLanding.png'
+import CalendarPage from '../assets/projects/calendarPage.png'
+import journalApp from '../assets/projects/journalApp.png'
+
 
 export  const BsCarousel = () => {
   return (
@@ -6,7 +10,7 @@ export  const BsCarousel = () => {
     <Carousel variant="dark" interval={null} fade={true}>
       <Carousel.Item>
        <div className="carrousel">
-
+          <img src={BankistLanding} alt="" />
        </div>
         <Carousel.Caption>
           <h5>Bankist</h5>
@@ -15,7 +19,7 @@ export  const BsCarousel = () => {
       </Carousel.Item>
       <Carousel.Item>
        <div className="carrousel">
-        
+       <img src={CalendarPage} alt="" />
        </div>
         <Carousel.Caption>
           <h5>Mapty</h5>
@@ -24,7 +28,7 @@ export  const BsCarousel = () => {
       </Carousel.Item>
       <Carousel.Item>
       <div className="carrousel">
-        
+      <img src={journalApp} alt="" />
         </div>
         <Carousel.Caption>
           <h5>Journal App</h5>
@@ -44,40 +48,7 @@ export  const BsCarousel = () => {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-      <div className="carrousel">
-        
-        </div>
-        <Carousel.Caption>
-          <h5>Heroes page</h5>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
 
-      <Carousel.Item>
-      <div className="carrousel">
-        
-        </div>
-        <Carousel.Caption>
-          <h5>Gif App</h5>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className="carrousel">
-        
-        </div>
-        <Carousel.Caption>
-          <h5>Pig Game</h5>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
     </Carousel>
     </div>
   );

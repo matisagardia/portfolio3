@@ -29,7 +29,7 @@ export const Skills = () => {
         </div>
 
         <div className="skillsLogos">
-            <div className="languajes">
+            <div className="languajes animate__animated animate__fadeInUp">
                 <div className="html">Html<img src={html} alt="" /></div>
                 <div className="css">Css<img src={css} alt="" /></div>
                 <div className="bs">Bootstrap<img src={bootstrap} alt="" /></div>
@@ -42,9 +42,9 @@ export const Skills = () => {
                 <div className="git">Git/Github<img src={git} alt="" /></div>
             </div>
 
-            <div className="softSkills">
+            <div className="softSkills animate__animated animate__fadeInUp">
                 <div className="teamwork">Teamwork<img src={teamwork} alt="" /></div>
-                <div className="listen">Llistening<img src={listen} alt="" /></div>
+                <div className="listen">Listening<img src={listen} alt="" /></div>
                 <div className="adapt">Adaptabilty<img src={adapt} alt="" /></div>
                 <div className="conflict">Conflict <br/> resolution<img src={conflict} alt="" /></div>
                 <div className="problem">Problem <br/> solving<img src={problem} alt="" /></div>
