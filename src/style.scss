@@ -179,12 +179,43 @@ body {
     height: 30vw;
     background-color: white;
     box-shadow: 17px 13px 102px -54px rgba(0,0,0,0.75);
+
+    h1 {
+        font-size: 500px;
+    }
+    
     img {
         width: 100%;
         height: 100%;
         border-radius: 5px;
+
+    }   
+}
+
+.mapty {
+    transition: all 1s ease-in;
+}
+
+.mapty:hover {
+    filter: brightness(30%);
+    transition: all 1s ease-in;
+}
+
+.maptyDescription {
+    margin: 0 auto;
+    opacity: 0;
+    width: 50%;
+    transition: all 1s ease-in;
+    h1, h4 {
+        color: white;
     }
 }
+
+#carrouselMapty:hover .maptyDescription {
+    opacity: 1;
+    transition: all 1s ease-in;
+}
+
 
 .carousel-control-prev-icon {
     margin-left: 200px
