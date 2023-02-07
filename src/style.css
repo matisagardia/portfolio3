@@ -160,7 +160,7 @@ body {
 }
 
 .carrouselContainer {
-  height: 700px;
+  height: 650px;
 }
 
 .carrousel {
@@ -294,17 +294,31 @@ body {
 }
 
 .smallerProjects {
+  height: 900px;
   font-size: 6rem;
   font-weight: 600;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.smallerProjects .smallerTitle {
+  margin-bottom: 80px;
 }
 
 .smallerContainer {
-  height: 500px;
+  height: 600px;
+  width: 60%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.app1 img, .app2 img, .app3 img, .app4 img {
+  margin-top: 20px;
+  width: 500px;
+  height: 250px;
 }
 
 /*# sourceMappingURL=style.css.map */
