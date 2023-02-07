@@ -180,33 +180,49 @@ body {
   border-radius: 5px;
 }
 
-.mapty {
-  transition: all 1s ease-in;
-}
-
-.mapty:hover {
-  filter: brightness(30%);
-  transition: all 1s ease-in;
-}
-
-.maptyDescription {
+.maptyDescription, .journalDescription, .calendarDescription, .bankSimulatorDescription {
   margin: 0 auto;
   opacity: 0;
   width: 50%;
   transition: all 1s ease-in;
 }
-.maptyDescription h1, .maptyDescription h4 {
+.maptyDescription h1, .maptyDescription h4, .journalDescription h1, .journalDescription h4, .calendarDescription h1, .calendarDescription h4, .bankSimulatorDescription h1, .bankSimulatorDescription h4 {
   color: white;
   margin-bottom: 20px;
 }
-.maptyDescription img {
+.maptyDescription img, .journalDescription img, .calendarDescription img, .bankSimulatorDescription img {
   margin-bottom: 20px;
   width: 50px;
   height: 50px;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.mapty, .journal, .calendar, .bankSimulator {
+  transition: all 1s ease-in;
+}
+
+.mapty:hover, .journal:hover, .calendar:hover, .bankSimulator:hover {
+  filter: brightness(30%);
+  transition: all 1s ease-in;
+}
+
+#carrouselJournal:hover .journalDescription {
+  opacity: 1;
+  transition: all 1s ease-in;
 }
 
 #carrouselMapty:hover .maptyDescription {
+  opacity: 1;
+  transition: all 1s ease-in;
+}
+
+#carrouselCalendar:hover .calendarDescription {
+  opacity: 1;
+  transition: all 1s ease-in;
+}
+
+#carrouselBankSimulator:hover .bankSimulatorDescription {
   opacity: 1;
   transition: all 1s ease-in;
 }
