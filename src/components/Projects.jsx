@@ -33,7 +33,7 @@ export const Projects = () => {
                     <h3>Pig Game</h3>
                     <img src={pig} alt="" />
                 </div>
-                <div className="app4">
+                <div className="app4 projectHighlight">
                 <h3>Guess my Number</h3>
                 <img src={guess} alt="" />
                 </div>

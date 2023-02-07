@@ -332,12 +332,32 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 100px;
+    
 }
 
 .app1, .app2, .app3, .app4 {
+    position: relative;
     img {
         margin-top: 20px;
         width: 500px;
         height: 250px;
+        transition: all 0.5s ease-in-out;
+    }
+      
+    &:hover {
+        transform: scale(1.1);
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+.app1, .app2, .app3, .app4 {
+
+    &::after {
+    content: "";
+    position: absolute;
+    inset: -0.5em;
+    background: linear-gradient(to left, #ffca9f92, #bbffc29f);
+    filter: blur(1.5em);
+    z-index: -1
     }
 }

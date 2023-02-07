@@ -315,10 +315,27 @@ body {
   gap: 100px;
 }
 
+.app1, .app2, .app3, .app4 {
+  position: relative;
+}
 .app1 img, .app2 img, .app3 img, .app4 img {
   margin-top: 20px;
   width: 500px;
   height: 250px;
+  transition: all 0.5s ease-in-out;
+}
+.app1:hover, .app2:hover, .app3:hover, .app4:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
+.app1::after, .app2::after, .app3::after, .app4::after {
+  content: "";
+  position: absolute;
+  inset: -0.5em;
+  background: linear-gradient(to left, rgba(255, 202, 159, 0.5725490196), rgba(187, 255, 194, 0.6235294118));
+  filter: blur(1.5em);
+  z-index: -1;
 }
 
 /*# sourceMappingURL=style.css.map */
