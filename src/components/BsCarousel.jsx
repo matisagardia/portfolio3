@@ -28,7 +28,11 @@ export  const BsCarousel = () => {
        </div>
         <Carousel.Caption className='maptyDescription'>
           <h1>Mapty</h1>
-          <h4>App to add different workouts based on the selected location received by the Geolocation API. The project was done in an Advanced Javascript Course to practice Object Oriented Programming. It uses the localStorage to save the information.</h4>
+          <img src={html} alt="" />
+          <img src={css} alt="" />
+          <img src={js} alt="" />
+          <img src={git} alt="" />
+          <h4>App to add different workouts by clicking on the map based on the selected location received by the Geolocation API. The project was done to practice Object Oriented Programming. It uses the localStorage to save the information.</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
