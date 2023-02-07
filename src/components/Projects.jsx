@@ -1,5 +1,6 @@
 import { FcBriefcase } from "react-icons/fc";
 import { BsCarousel } from "./BsCarousel";
+import { Footer } from "./Footer"
 import heroesApp from  "../assets/projects/heroes.png"
 import gifApp from "../assets/projects/gifexpert.png"
 import pig from "../assets/projects/pig.png"
@@ -39,6 +40,7 @@ export const Projects = () => {
                 </div>
             </div>
         </div>
+        <Footer />
 
     </div>
   )

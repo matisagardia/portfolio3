@@ -327,11 +327,11 @@ body {
 
 .smallerContainer {
     height: 600px;
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 130px;
     
 }
 
@@ -342,6 +342,7 @@ body {
         width: 500px;
         height: 250px;
         transition: all 0.5s ease-in-out;
+        border-radius: 8px;
     }
       
     &:hover {
@@ -361,3 +362,26 @@ body {
     z-index: -1
     }
 }
+
+.footer {
+    margin-top: 80px;
+    height: 70px;
+    width: 100vw;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    h5{ 
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    img {
+        width: 30px;
+        height: 30px;
+        }   
+    .footerIcons {
+        display: flex;
+        gap: 20px;
+    }
+    }
+

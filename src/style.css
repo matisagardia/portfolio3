@@ -308,11 +308,11 @@ body {
 
 .smallerContainer {
   height: 600px;
-  width: 60%;
+  width: 80%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 100px;
+  gap: 130px;
 }
 
 .app1, .app2, .app3, .app4 {
@@ -323,6 +323,7 @@ body {
   width: 500px;
   height: 250px;
   transition: all 0.5s ease-in-out;
+  border-radius: 8px;
 }
 .app1:hover, .app2:hover, .app3:hover, .app4:hover {
   transform: scale(1.1);
@@ -336,6 +337,28 @@ body {
   background: linear-gradient(to left, rgba(255, 202, 159, 0.5725490196), rgba(187, 255, 194, 0.6235294118));
   filter: blur(1.5em);
   z-index: -1;
+}
+
+.footer {
+  margin-top: 80px;
+  height: 70px;
+  width: 100vw;
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer h5 {
+  font-size: 2rem;
+  font-weight: 100;
+}
+.footer img {
+  width: 30px;
+  height: 30px;
+}
+.footer .footerIcons {
+  display: flex;
+  gap: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
