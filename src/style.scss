@@ -12,11 +12,17 @@ body {
 
 
 .nav {
-    margin-top: 10px;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     font-weight: 500;
+    background-color: white;
+    z-index: 9999;
 }
 
 .sections {
@@ -34,6 +40,7 @@ body {
             list-style-type: none;
         }
         a {
+            cursor: pointer;
             color: rgb(64, 64, 64);
             text-decoration: none;
             position: relative;
@@ -86,7 +93,7 @@ body {
 .home {
     margin: 0 auto;
     width: 85vw;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 100px);
     display: flex;
     align-items: center;
     justify-content: space-evenly;

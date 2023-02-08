@@ -16,9 +16,9 @@ export const Navbar = () => {
                   <div className="divider"></div>
 
                   <ul>
-                      <li> <Link to="/" spy={true} smooth={true} offset={0} duration={500}>Home</Link></li>
-                      <li> <Link to="skills" spy={true} smooth={true} offset={-50} duration={500}>Skills</Link></li>
-                      <li> <Link to="projects" spy={true} smooth={true} offset={-50} duration={500}>Projects</Link></li>
+                      <li> <Link to="home" spy={true} smooth={true} offset={0} duration={300}>Home</Link></li>
+                      <li> <Link to="skills" spy={true} smooth={true} offset={-80} duration={300}>Skills</Link></li>
+                      <li> <Link to="projects" spy={true} smooth={true} offset={-80} duration={300}>Projects</Link></li>
                   </ul>
               </div>
 
