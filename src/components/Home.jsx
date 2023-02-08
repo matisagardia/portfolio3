@@ -1,21 +1,29 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Button } from 'react-bootstrap'
-import homeImg from "../assets/homeicon/icon0.jpg"
+import homeImg from "../assets/homeicon/icon0background.png"
+import { DarkModeContext } from './contexts/ThemeContext';
 
 
 export const Home = () => {
+
+  const {darkMode, toggleDarkMode} = useContext(DarkModeContext);
+
+  const handleClick = () => {
+    toggleDarkMode();
+  };
+
   return (
-    <div className='home'>
+    <div className={`home ${darkMode ? 'darkModeBackground' : 'lightModeBackground'}`}>
 
         <div className="homeText animate__animated animate__fadeInLeft">
 
-            <h2>Welcome to my portfolio!</h2>
+            <h2 className={darkMode ? "darkModeFont" : "lightModeFont"}>Welcome to my portfolio!</h2>
 
-            <h1 className='highlight' id='name'>I'm Matias Sagardia</h1> 
+            <h1 className={`highlight ${darkMode ? "darkModeFont" : "lightModeFont"}`} id='name'>I'm Matias Sagardia</h1> 
             <br />
-            <h1>Front End Developer</h1> 
+            <h1 className={darkMode ? "darkModeFont" : "lightModeFont"}>Front End Developer</h1> 
 
-            <h3>My goal is to build creative, functional, and innovative products. <br />
+            <h3 className={darkMode ? "darkModeFont" : "lightModeFont"}>My goal is to build creative, functional, and innovative products. <br />
             I challenge myselft seeking to generate the best user experience.</h3>
             
 

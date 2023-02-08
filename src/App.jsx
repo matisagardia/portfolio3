@@ -4,16 +4,19 @@ import { Projects } from "./components/Projects"
 import { Skills } from "./components/Skills"
 
 import "./style.css";
+import { DarkModeProvider } from "./components/contexts/ThemeContext";
 
 function App() {
 
 
   return (
     <>
-    <Navbar />
-    <Home />
-    <Skills />
-    <Projects />
+    <DarkModeProvider>
+      <Navbar />
+      <Home />
+      <Skills />
+      <Projects />
+    </DarkModeProvider>
     </>
   )
 }
