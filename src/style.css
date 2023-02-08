@@ -22,6 +22,7 @@ body {
   font-weight: 500;
   background-color: rgb(255, 255, 255);
   z-index: 9999;
+  user-select: none;
 }
 
 .sections {
@@ -97,6 +98,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  user-select: none;
 }
 
 .homeText {
@@ -158,6 +160,7 @@ body {
 }
 
 .projectsTitle {
+  user-select: none;
   font-size: 6rem;
   font-weight: 600;
   display: flex;
@@ -252,6 +255,7 @@ body {
 }
 
 .skillsTitle {
+  user-select: none;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -265,6 +269,7 @@ body {
 }
 
 .skillsLogos {
+  user-select: none;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -305,6 +310,7 @@ body {
 }
 
 .smallerProjects {
+  user-select: none;
   height: 900px;
   font-size: 6rem;
   font-weight: 600;
