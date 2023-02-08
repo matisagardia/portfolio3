@@ -20,7 +20,7 @@ body {
   align-items: center;
   justify-content: space-evenly;
   font-weight: 500;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   z-index: 9999;
 }
 
@@ -34,6 +34,7 @@ body {
   display: flex;
   gap: 60px;
   font-size: 4rem;
+  margin-bottom: 0;
 }
 .sections ul li {
   list-style-type: none;
@@ -76,11 +77,14 @@ body {
 }
 
 .modeButton {
+  padding-top: 4px;
   display: flex;
+  align-items: center;
   cursor: pointer;
 }
 .modeButton p {
   font-size: 1.5rem;
+  margin-bottom: 0;
 }
 .modeButton .modeIcon {
   font-size: 2.5rem;

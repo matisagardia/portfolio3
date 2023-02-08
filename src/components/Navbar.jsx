@@ -23,8 +23,8 @@ export const Navbar = () => {
               </div>
 
               <div className="modeButton">
-                  <WiMoonWaningCrescent3 className='modeIcon'/> 
-                  <p>Mode</p>
+                  <div className="toggleMode"><WiMoonWaningCrescent3 className='modeIcon'/> </div>
+                  <p>Dark Mode</p>
               </div>
       </div>
     </div>
