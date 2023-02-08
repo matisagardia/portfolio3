@@ -21,7 +21,7 @@ export const Skills = () => {
 
 
   return (
-    <div className="skillsContainer">
+    <div className="skillsContainer" id="skills">
 
         <div className="skillsTitle">
             <p>My skills</p>
