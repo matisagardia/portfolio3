@@ -22,9 +22,9 @@ export const Home = () => {
             <div className="buttons">
 
 
-            <Button variant="secondary" size='lg' className='resumeButton'>Dowload resume</Button>
+            <Button variant="secondary" size='lg' className='resumeButton' href='https://drive.google.com/file/d/1_IRWR-Eyqy8xL5bKpoY3x6CyPB_fT5H7/view?usp=share_link' target='#'>Dowload resume</Button>
 
-            <Button variant="outline-secondary" size='lg' className='contactButton'>Contact me</Button>
+            <Button variant="outline-secondary" size='lg' className='contactButton' href="mailto:matisagardia7@gmail.com">Contact me</Button>
 
             </div>
 
