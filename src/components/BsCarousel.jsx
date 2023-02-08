@@ -82,7 +82,7 @@ export  const BsCarousel = () => {
 
       <Carousel.Item id='carrouselBankSimulator'>
        <div className="carrousel">
-          <img src={BankingSimulator} alt="" className='bankSimulator'/>
+          <a href="https://matisagardia.github.io/bankist/"><img src={BankingSimulator} alt="" className='bankSimulator'/></a>
        </div>
         <Carousel.Caption className='bankSimulatorDescription'>
           <h1>Bank Simulator</h1>
