@@ -26,7 +26,7 @@ export  const BsCarousel = () => {
 
     <Carousel.Item id='carrouselJournal'>
       <div className="carrousel">
-      <img src={journalApp} alt="" className='journal'/>
+      <a href="https://journalapp-e125c.web.app/"><img src={journalApp} alt="" className='journal'/></a>
         </div>
         <Carousel.Caption className='journalDescription'>
           <h1>Journal App</h1>
@@ -46,7 +46,7 @@ export  const BsCarousel = () => {
 
       <Carousel.Item id='carrouselMapty'>
        <div className="carrousel" >
-       <img src={Mapty} alt="" className='mapty'/>
+       <a href="https://matisagardia.github.io/maptyApp/"><img src={Mapty} alt="" className='mapty'/></a>
        </div>
         <Carousel.Caption className='maptyDescription'>
           <h1>Mapty</h1>
@@ -62,7 +62,7 @@ export  const BsCarousel = () => {
 
       <Carousel.Item id='carrouselCalendar'>
       <div className="carrousel">
-      <img src={CalendarPage} alt="" className='calendar'/>
+      <a href="https://calendarapp-backend-ms.up.railway.app/auth/login"><img src={CalendarPage} alt="" className='calendar'/></a>
         </div>
         <Carousel.Caption className='calendarDescription'>
           <h1>Calendar App</h1>
@@ -89,7 +89,7 @@ export  const BsCarousel = () => {
           <img src={html} alt="" />
           <img src={css} alt="" />
           <img src={js} alt="" />
-          <h4>App to simulate a bank account. You can transfer money between accounts, request a loan, and close the account. Also, you can sort the movements. The login/logout function is only visibility by changing the opacity of a screen.</h4>
+          <h4>Note: To try the app the username is "ms" and the password is 1111. <br/><br/> App to simulate a bank account. You can transfer money between accounts, request a loan, and close the account. Also, you can sort the movements. The login/logout function is only visibility by changing the opacity of a screen.</h4>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
