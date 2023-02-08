@@ -24,21 +24,7 @@ export  const BsCarousel = () => {
     <div className='carrouselContainer'>
     <Carousel variant="dark" interval={null} fade={true}>
 
-      <Carousel.Item id='carrouselMapty'>
-       <div className="carrousel" >
-       <img src={Mapty} alt="" className='mapty'/>
-       </div>
-        <Carousel.Caption className='maptyDescription'>
-          <h1>Mapty</h1>
-          <img src={html} alt="" />
-          <img src={css} alt="" />
-          <img src={js} alt="" />
-          <img src={git} alt="" />
-          <h4>App to add different workouts by clicking on the map based on the selected location received by the Geolocation API. The project was done to practice Object Oriented Programming. It uses the localStorage to save the information.</h4>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item id='carrouselJournal'>
+    <Carousel.Item id='carrouselJournal'>
       <div className="carrousel">
       <img src={journalApp} alt="" className='journal'/>
         </div>
@@ -57,6 +43,22 @@ export  const BsCarousel = () => {
           </h4>
         </Carousel.Caption>
       </Carousel.Item>
+
+      <Carousel.Item id='carrouselMapty'>
+       <div className="carrousel" >
+       <img src={Mapty} alt="" className='mapty'/>
+       </div>
+        <Carousel.Caption className='maptyDescription'>
+          <h1>Mapty</h1>
+          <img src={html} alt="" />
+          <img src={css} alt="" />
+          <img src={js} alt="" />
+          <img src={git} alt="" />
+          <h4>App to add different workouts by clicking on the map based on the selected location received by the Geolocation API. The project was done to practice Object Oriented Programming. It uses the localStorage to save the information.</h4>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+
 
       <Carousel.Item id='carrouselCalendar'>
       <div className="carrousel">
