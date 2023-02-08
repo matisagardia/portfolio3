@@ -10,11 +10,8 @@ import { DarkModeContext } from "./contexts/ThemeContext";
 
 export const Projects = () => {
 
-    const {darkMode, toggleDarkMode} = useContext(DarkModeContext);
+    const {darkMode} = useContext(DarkModeContext);
       
-    const handleClick = () => {
-      toggleDarkMode();
-    };
 
   return (
     <div className={`projects ${darkMode ? 'darkModeBackground' : 'lightModeBackground'}`}>

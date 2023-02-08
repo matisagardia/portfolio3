@@ -22,11 +22,8 @@ import { DarkModeContext } from "./contexts/ThemeContext"
 export const Skills = () => {
 
 
-        const {darkMode, toggleDarkMode} = useContext(DarkModeContext);
-      
-        const handleClick = () => {
-          toggleDarkMode();
-        };
+        const {darkMode} = useContext(DarkModeContext);
+
       
 
   return (
